@@ -8,6 +8,6 @@
 
 `yarn start:with:rel`
 
-## Not working relative imports
+## Not working absolute imports
 
 `yarn start:with:abs`
