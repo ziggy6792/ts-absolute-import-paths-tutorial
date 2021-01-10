@@ -9,9 +9,6 @@
     "start": "node dist/main.js"
   },
   "_moduleAliases": {
-    "@server": "dist/server",
-    "@common": "dist/common",
-    "@example": "dist/example",
     "src": "dist"
   },
   "devDependencies": {
