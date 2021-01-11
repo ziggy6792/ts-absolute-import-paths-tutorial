@@ -3,7 +3,6 @@
 ## Setup
 
 `yarn install`
-`yarn watch`
 
 ## Working relative imports
 

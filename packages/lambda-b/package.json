@@ -7,10 +7,6 @@
     "start": "npx ts-node src/run-inside-package.ts",
     "watch": "tsc -w"
   },
-  "_moduleAliases": {
-    "src": "dist",
-    "@example": "dist/example"
-  },
   "devDependencies": {
     "tsc-watch": "^4.2.8",
     "typescript": "^3.9.5"

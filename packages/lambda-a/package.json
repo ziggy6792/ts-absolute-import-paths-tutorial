@@ -6,9 +6,6 @@
   "scripts": {
     "watch": "tsc -w"
   },
-  "_moduleAliases": {
-    "src": "dist"
-  },
   "devDependencies": {
     "tsc-watch": "^4.2.8",
     "typescript": "^3.9.5"
