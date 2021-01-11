@@ -14,7 +14,7 @@ import lambdaLocal = require('lambda-local');
 //   });
 
 const callB = async () => bHandler({});
-const callC = async () => bHandler({});
+const callC = async () => cHandler({});
 
 const main = async () => {
   await callB();
