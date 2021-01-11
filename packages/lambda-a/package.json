@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A node/typescript starter with Live-reloading, absolute path imports and incremental compilation built-in",
   "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w"
+  },
   "_moduleAliases": {
     "src": "dist"
   },

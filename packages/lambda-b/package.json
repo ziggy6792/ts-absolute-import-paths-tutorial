@@ -4,7 +4,8 @@
   "description": "A node/typescript starter with Live-reloading, absolute path imports and incremental compilation built-in",
   "main": "index.js",
   "scripts": {
-    "start": "npx ts-node src/run-inside-package.ts"
+    "start": "npx ts-node src/run-inside-package.ts",
+    "watch": "tsc -w"
   },
   "_moduleAliases": {
     "src": "dist",
