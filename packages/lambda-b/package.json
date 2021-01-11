@@ -9,7 +9,8 @@
     "start": "node dist/main.js"
   },
   "_moduleAliases": {
-    "src": "dist"
+    "src": "dist",
+    "@example": "dist/example"
   },
   "devDependencies": {
     "tsc-watch": "^4.2.8",

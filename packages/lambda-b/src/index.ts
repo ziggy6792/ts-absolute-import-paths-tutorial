@@ -1,10 +1,12 @@
 /* eslint-disable import/prefer-default-export */
 import 'module-alias/register';
 import 'source-map-support/register';
-import example from 'src/example/example';
+import aliasImport from '@example/example';
+import relativeImport from 'src/example/example';
 
 export const handler = async (event: any): Promise<any> => {
-  example();
+  relativeImport();
+  aliasImport();
   return {
     statusCode: 200,
     body: JSON.stringify({
@@ -12,5 +14,3 @@ export const handler = async (event: any): Promise<any> => {
     }),
   };
 };
-
-// handler({});

@@ -8,10 +8,13 @@
   "workspaces": {
     "packages": [
       "packages/**"
+    ],
+    "nohoist": [
+      "**/module-alias"
     ]
   },
   "scripts": {
-    "start:with:rel": "ts-node utils/local-server-rel.ts",
+    "start:with:rel": "ts-node --project packages/lambda-b/tsconfig.json -r tsconfig-paths/register utils/local-server-rel.ts",
     "start:with:abs": "ts-node utils/local-server-abs.ts"
   },
   "devDependencies": {
