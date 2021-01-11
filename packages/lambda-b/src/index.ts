@@ -2,10 +2,10 @@
 import 'module-alias/register';
 import 'source-map-support/register';
 import aliasImport from '@example/example';
-import relativeImport from 'src/example/example';
+import absolutImport from 'src/example/example';
 
 export const handler = async (event: any): Promise<any> => {
-  relativeImport();
+  absolutImport();
   aliasImport();
   return {
     statusCode: 200,
