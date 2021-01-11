@@ -16,7 +16,6 @@
       "@server/*": ["src/server/*"],
       "@common/*": ["src/common/*"],
       "@example/*": ["src/example/*"]
-      //   "@src/*": ["src/*"]
     }
   }
 }
