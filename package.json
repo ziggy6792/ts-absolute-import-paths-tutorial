@@ -16,7 +16,8 @@
   "scripts": {
     "start:with:rel": "ts-node utils/local-server-rel.ts",
     "start:with:abs": "ts-node --project packages/lambda-b/tsconfig.json -r tsconfig-paths/register utils/local-server-abs.ts",
-    "start:with:abs:in:package": "cd packages/lambda-b && yarn start"
+    "start:with:abs:multiple": "ts-node --project packages/lambda-b/tsconfig.json -r tsconfig-paths/register utils/local-server-abs-multiple.ts",
+    "start:with:abs:in:package": "cd packages/lambda-c && yarn start"
   },
   "devDependencies": {
     "@types/node": "^14.14.20",
